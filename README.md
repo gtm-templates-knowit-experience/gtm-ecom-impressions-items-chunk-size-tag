@@ -1,15 +1,16 @@
 # Ecommerce Impressions/Items Chunk Size Tag
 If the payload size is larger than **8192 bytes**, the **hit will not be sent to Google Analytics**. This usually occours with **GA Enhanced Ecommerce Impressions**, or **GA4 Items** sent with the **view_item_list Event**. To overcome this problem, you can send the data in smaller chunks.
 
-This **GTM Tag Template (Web)** makes it possible to split GA4 Ecommerce Items or GA EEC Impressions payload into smaller chunks.
+This **GTM Tag Template (Web)** makes it possible to break GA4 Ecommerce Items or GA EEC Impressions payload into smaller chunks.
 
 ## GTM Tag Template Overview/Setup
 ### Ecommerce Object
 This setting lets you choose if you want to read Ecommerce data from the **Ecommerce Object (Data Layer)**, or from a **GTM Variable**.
 
-If you for example have rewritten your Ecommerce Object using a Custom Javascript Variable, you can choose this Variable as the input for your Ecommerce data as well.
+If you for example have rewritten your Ecommerce Object using a Custom Javascript Variable, you can choose this Variable as the input for this template. A complete Ecommerce Object must be returned in the Variable.
+
 ### Number of Items/Products returned in the chunked payload
-How many items to return will depends, but a good starting number is **15**. If 15 works well, you can experiment with a higher number.
+How many items to return will depends, but a good starting number to experiment with is **15**.
 
 ### Event Name
 Choose the Event Name that should be used as Trigger for the chunked ecommerce data.
