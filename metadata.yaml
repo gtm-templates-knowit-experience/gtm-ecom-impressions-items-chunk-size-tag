@@ -1,6 +1,9 @@
 homepage: "https://github.com/gtm-templates-knowit-experience/"
-documentation: "https://github.com/gtm-templates-knowit-experience/gtm-ga4-ecom-items-dlv-version-1-variable"
+documentation: "https://github.com/gtm-templates-knowit-experience/gtm-ecom-impressions-items-chunk-size-tag"
 versions:
   # Latest version
+  - sha: cd98699fb07f061b8b83659ef4c47ab2cfccd7e4
+    changeNotes: Added Currency to the Ecommerce Object, and some none functional changes.
+  # Older versions
   - sha: f93a515007f6164e2dae71ce5deeacd9178b719c
     changeNotes: Initial release.
