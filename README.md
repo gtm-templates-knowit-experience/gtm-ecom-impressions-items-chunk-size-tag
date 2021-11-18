@@ -3,6 +3,8 @@ If the Google Analytics payload size is larger than **8192 bytes**, the **hit wi
 
 This **GTM Tag Template (Web)** overcomes this problem by breaking GA4 Ecommerce Items or GA EEC Impressions payload into smaller chunks.
 
+This Template is available in the [**Google Tag Manager Template Gallery**](https://tagmanager.google.com/gallery/#/owners/gtm-templates-knowit-experience/templates/gtm-ecom-impressions-items-chunk-size-tag).
+
 ## GTM Tag Template Overview/Setup
 ### Ecommerce Object
 This setting lets you choose if you want to read Ecommerce data from the **Ecommerce Object (Data Layer)**, or from a **GTM Variable**.
