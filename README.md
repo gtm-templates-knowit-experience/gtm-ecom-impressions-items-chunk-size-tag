@@ -1,4 +1,4 @@
-# Ecommerce Impressions/Items Chunk Size
+# Ecommerce Impressions/Items Chunk Size - GTM Tag (Web)
 If the Google Analytics payload size is larger than **8192 bytes**, the **hit will not be sent to Google Analytics**. This usually occours with **GA Enhanced Ecommerce Impressions**, or **GA4 Items** sent with the **view_item_list Event**.
 
 This **GTM Tag Template (Web)** overcomes this problem by breaking GA4 Ecommerce Items or GA EEC Impressions payload into smaller chunks.
